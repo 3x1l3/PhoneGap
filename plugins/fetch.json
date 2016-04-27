@@ -42,9 +42,9 @@
     "cordova-plugin-device": {
         "source": {
             "type": "registry",
-            "id": "cordova-plugin-device@~1.1.1"
+            "id": "cordova-plugin-device"
         },
-        "is_top_level": true,
+        "is_top_level": false,
         "variables": {}
     },
     "cordova-plugin-device-motion": {
@@ -59,14 +59,6 @@
         "source": {
             "type": "registry",
             "id": "cordova-plugin-device-orientation@~1.0.2"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "cordova-plugin-dialogs": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-dialogs@~1.2.0"
         },
         "is_top_level": true,
         "variables": {}
@@ -155,6 +147,31 @@
         "source": {
             "type": "registry",
             "id": "cordova-plugin-whitelist@~1.2.1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-dialogs": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-dialogs"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-app-event": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-app-event"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "de.appplant.cordova.plugin.local-notification": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/katzer/cordova-plugin-local-notifications",
+            "subdir": "."
         },
         "is_top_level": true,
         "variables": {}

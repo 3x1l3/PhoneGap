@@ -1,1 +1,31 @@
-push	/Users/tangle/Sites/PhoneGap/www/js/site.js	/^var push = PushNotification.init({$/;"	variable	line:1
+initialize	/Users/tangle/Sites/PhoneGap/www/js/index.js	/^    initialize: function() {$/;"	function	line:21
+app.initialize	/Users/tangle/Sites/PhoneGap/www/js/index.js	/^var app = {$/;"	method	line:19
+bindEvents	/Users/tangle/Sites/PhoneGap/www/js/index.js	/^    bindEvents: function() {$/;"	function	line:28
+app.bindEvents	/Users/tangle/Sites/PhoneGap/www/js/index.js	/^    },$/;"	method	line:23
+onDeviceReady	/Users/tangle/Sites/PhoneGap/www/js/index.js	/^    onDeviceReady: function() {$/;"	function	line:35
+app.onDeviceReady	/Users/tangle/Sites/PhoneGap/www/js/index.js	/^    },$/;"	method	line:30
+receivedEvent	/Users/tangle/Sites/PhoneGap/www/js/index.js	/^    receivedEvent: function(id) {$/;"	function	line:39
+app.receivedEvent	/Users/tangle/Sites/PhoneGap/www/js/index.js	/^    },$/;"	method	line:37
+ready	/Users/tangle/Sites/PhoneGap/www/js/site.js	/^function ready() {$/;"	function	line:3
+ready	/Users/tangle/Sites/PhoneGap/www/js/site.js	/^function ready() {$/;"	function	line:3
+html	/Users/tangle/Sites/PhoneGap/www/index.html	/^<html>$/;"	function	line:22
+head	/Users/tangle/Sites/PhoneGap/www/index.html	/^<head>$/;"	function	line:23
+meta	/Users/tangle/Sites/PhoneGap/www/index.html	/^    <meta charset="utf-8" \/>$/;"	function	line:24
+meta	/Users/tangle/Sites/PhoneGap/www/index.html	/^    <meta name="format-detection" content="telephone=no" \/>$/;"	function	line:25
+meta	/Users/tangle/Sites/PhoneGap/www/index.html	/^    <meta name="msapplication-tap-highlight" content="no" \/>$/;"	function	line:26
+meta	/Users/tangle/Sites/PhoneGap/www/index.html	/^    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" \/>$/;"	function	line:27
+meta	/Users/tangle/Sites/PhoneGap/www/index.html	/^    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" \/>$/;"	function	line:29
+link	/Users/tangle/Sites/PhoneGap/www/index.html	/^    <link rel="stylesheet" type="text\/css" href="css\/index.css" \/>$/;"	function	line:40
+title	/Users/tangle/Sites/PhoneGap/www/index.html	/^    <title>Hello World<\/title>$/;"	function	line:41
+body	/Users/tangle/Sites/PhoneGap/www/index.html	/^<body>$/;"	function	line:45
+div	/Users/tangle/Sites/PhoneGap/www/index.html	/^    <div class="app">$/;"	function	line:46
+h	/Users/tangle/Sites/PhoneGap/www/index.html	/^        <h1>PhoneGap<\/h1>$/;"	function	line:47
+div	/Users/tangle/Sites/PhoneGap/www/index.html	/^        <div id="deviceready" class="blink">$/;"	function	line:48
+p	/Users/tangle/Sites/PhoneGap/www/index.html	/^            <p class="event listening">Connecting to Device<\/p>$/;"	function	line:49
+p	/Users/tangle/Sites/PhoneGap/www/index.html	/^            <p class="event received">Device is Ready<\/p>$/;"	function	line:50
+button	/Users/tangle/Sites/PhoneGap/www/index.html	/^        <button id="button">Press Me<\/button>$/;"	function	line:52
+script	/Users/tangle/Sites/PhoneGap/www/index.html	/^    <script type="text\/javascript" src="cordova.js"><\/script>$/;"	function	line:54
+script	/Users/tangle/Sites/PhoneGap/www/index.html	/^    <script type="text\/javascript" src="js\/index.js"><\/script>$/;"	function	line:55
+script	/Users/tangle/Sites/PhoneGap/www/index.html	/^    <script src="https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.12.2\/jquery.min.js"><\/script>$/;"	function	line:56
+script	/Users/tangle/Sites/PhoneGap/www/index.html	/^    <script type="text\/javascript" src="js\/site.js"><\/script>$/;"	function	line:57
+script	/Users/tangle/Sites/PhoneGap/www/index.html	/^    <script type="text\/javascript">$/;"	function	line:60

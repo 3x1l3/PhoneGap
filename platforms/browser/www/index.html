@@ -20,7 +20,6 @@
     under the License.
 -->
 <html>
-
 <head>
     <meta charset="utf-8" />
     <meta name="format-detection" content="telephone=no" />
@@ -37,6 +36,7 @@
     * Create your own at http://cspisawesome.com
     -->
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <title>Hello World</title>
@@ -44,12 +44,18 @@
 
 <body>
     <div class="app">
-        <h1>PhoneGap</h1>
         <div id="deviceready" class="blink">
             <p class="event listening">Connecting to Device</p>
             <p class="event received">Device is Ready</p>
-        </div>
-        <button id="button">Press Me</button>
+        </div><p>
+        <button id="vibrate-button" class="btn btn-lg btn-primary" style="margin-top:10px">Press to vibrate</button></p>
+        <button id="name-button" class="btn btn-lg btn-primary" style="margin-top:10px">Enter Name</button>
+
+        <span class="name-badge badge hidden"> </span>
+        <button id="notification-button" class="btn btn-lg btn-primary" style="margin-top:10px">Send Notification</button>
+
+        <button id="camera-button" class="btn btn-lg btn-primary" style="margin-top:10px">Press to open camera</button>
+        <img class="hidden" id="image" src="" />
     </div>
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
